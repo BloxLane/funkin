@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+	box-sizing: border-box;
+	padding: 0px;
+	margin: 0px;
+}
+
+#navbar, #content, #suggestions {
+	padding-top: 1em;
+}
+
+#navbar, #content {
+	text-align: center;
+}
+
+#suggestions {
+	display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#omnibox {
+	width: 95%;
+
+	padding: 10px;
+
+	border-color: skyblue;
+	border-style: solid;
+	border-width: 3px;
+	border-radius: 6px;
+
+	background-color: var(--bg);
+}
+#suggestions a {
+	padding: 10px;
+
+	font-size: 20px;
+
+}
+
+#navbar a {
+	font-size: 30px;
+  color: black;
+}
+
+#navbar a:not(a:last-child) {
+	margin-right: 1em;
+}
+
+a {
+	text-decoration: none;
+}
+
+
+#omnibox, #omnibox::placeholder {
+	/*
+	font-family: 'Roboto', sans-serif;
+	*/
+	font-size: 24px;
+  color: grey;
+}
+
+#omnibox:focus {
+	outline: none;
+}/* master style sheet 
+
+/* OK to change these settings */
+body {
+	background-color:#cccccc;
+	font-family:Arial, sans-serif;
+	font-size:20px;
+	}
+
+/* DO NOT CHANGE */
+#wrapper {
+	width:800px;
+	margin: 20px auto 25px auto;
+	}
+
+/* DO NOT CHANGE */
+#header {
+	float:left;
+	width:800px;
+	height:200px;
+	border: 1px solid gray;
+	}
+
+
+#nav   {
+	float: left;
+	width: 151px;
+	min-height: 300px;
+	margin-top:5px;
+	padding: 10px;
+	
+	/* OK to change these*/
+	background:#9a230e;
+	font-size: 16px;
+}
+
+#nav a {
+	text-decoration:none;
+	
+	/* OK to change these*/
+	color: white;
+	font-size: 20px;
+}	
+
+#main {
+	/* Don't change these settings */
+	float:right;
+	border: solid #9b240f 1px;
+	width:600px;
+	margin:5px 0;
+	padding:10px;
+	min-height: 400px;
+	
+	/* OK to change these*/	
+	background-color:#EEEEEE;
+	}
+
+
+/* Change these to suit your needs */
+
+/* Heading 1 settings */
+#main h1 {
+	color: #660033;
+	font-family:Arial;
+}
+
+/* Hyper Link settings */
+#main a:link  {
+	background:#CC0066;
+	color: white;
+	padding: 0 5px;
+	text-decoration: none;
+}/* master style sheet 
+
+/* OK to change these settings */
+body {
+	background-color:#cccccc;
+	font-family:Arial, sans-serif;
+	font-size:20px;
+	}
+
+/* DO NOT CHANGE */
+#wrapper {
+	width:800px;
+	margin: 20px auto 25px auto;
+	}
+
+/* DO NOT CHANGE */
+#header {
+	float:left;
+	width:800px;
+	height:200px;
+	border: 1px solid gray;
+	}
+
+
+#nav   {
+	float: left;
+	width: 151px;
+	min-height: 300px;
+	margin-top:5px;
+	padding: 10px;
+	
+	/* OK to change these*/
+	background:#9a230e;
+	font-size: 16px;
+}
+
+#nav a {
+	text-decoration:none;
+	
+	/* OK to change these*/
+	color: white;
+	font-size: 20px;
+}	
+
+#main {
+	/* Don't change these settings */
+	float:right;
+	border: solid #9b240f 1px;
+	width:600px;
+	margin:5px 0;
+	padding:10px;
+	min-height: 400px;
+	
+	/* OK to change these*/	
+	background-color:#EEEEEE;
+	}
+
+
+/* Change these to suit your needs */
+
+/* Heading 1 settings */
+#main h1 {
+	color: #660033;
+	font-family:Arial;
+}
+
+/* Hyper Link settings */
+#main a:link  {
+	background:#CC0066;
+	color: white;
+	padding: 0 5px;
+	text-decoration: none;
+}

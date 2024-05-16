@@ -1,0 +1,73 @@
+/* master style sheet 
+
+/* OK to change these settings */
+body {
+	background-color:#cccccc;
+	font-family:Arial, sans-serif;
+	font-size:20px;
+	}
+
+/* DO NOT CHANGE */
+#wrapper {
+	width:800px;
+	margin: 20px auto 25px auto;
+	}
+
+/* DO NOT CHANGE */
+#header {
+	float:left;
+	width:800px;
+	height:200px;
+	border: 1px solid gray;
+	}
+
+
+#nav   {
+	float: left;
+	width: 151px;
+	min-height: 300px;
+	margin-top:5px;
+	padding: 10px;
+	
+	/* OK to change these*/
+	background:#9a230e;
+	font-size: 16px;
+}
+
+#nav a {
+	text-decoration:none;
+	
+	/* OK to change these*/
+	color: white;
+	font-size: 20px;
+}	
+
+#main {
+	/* Don't change these settings */
+	float:right;
+	border: solid #9b240f 1px;
+	width:600px;
+	margin:5px 0;
+	padding:10px;
+	min-height: 400px;
+	
+	/* OK to change these*/	
+	background-color:#EEEEEE;
+	}
+
+
+/* Change these to suit your needs */
+
+/* Heading 1 settings */
+#main h1 {
+	color: #660033;
+	font-family:Arial;
+}
+
+/* Hyper Link settings */
+#main a:link  {
+	background:#CC0066;
+	color: white;
+	padding: 0 5px;
+	text-decoration: none;
+}

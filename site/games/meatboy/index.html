@@ -1,0 +1,20 @@
+<body style="margin: 0;">
+    <div id="container" style="width: 300px; height: 500px;"></div>
+    <script>
+        window.RufflePlayer = window.RufflePlayer || {};
+        window.addEventListener("load", event => {
+            const ruffle = window.RufflePlayer.newest();
+
+            const player = ruffle.createPlayer();
+
+            player.style.width = "100%";
+            player.style.height = "100%";
+
+            const container = document.getElementById("container");
+            container.appendChild(player);
+
+            player.load("game.swf");
+        });
+    </script>
+    <script src="/games/ruffle/ruffle.js"></script>
+</body>
